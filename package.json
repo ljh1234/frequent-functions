@@ -2,7 +2,7 @@
   "name": "frequent-functions",
   "version": "1.0.0",
   "description": "A library of commonly used function for backstage management system",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "watch": "webpack --watch --mode=development",
     "build": "webpack",

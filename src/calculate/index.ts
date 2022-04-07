@@ -4,8 +4,11 @@
  * @param {number} num2
  * @return {*}
  */
-export function sum(num1: number, num2: number): number{
-  return num1 + num2;
+export function sum(num1: number, num2: number): Promise<number>{
+  return new Promise((resolve) => {
+    const total = num1 + num2;
+    resolve(total);
+  })
 }
 
 /**
